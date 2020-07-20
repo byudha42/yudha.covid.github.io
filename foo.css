@@ -1,0 +1,39 @@
+.layer1, .layer2, .lay, .layer3, .layer4, .layer5, .layer6{display: none;}
+.layer{margin: inherit;}
+.layer img{width:100%;}
+.layer{z-index: -1;}
+@keyframes myfirst {
+  0%   {transform: rotate(0deg);}
+}
+.container{
+  height: inherit;
+}
+
+.h-back{
+  width: 100%;
+  padding: 10% 10% 10% 10%;
+}
+li p{display: none;float: inherit;}
+.laye{display: block;}
+.laye ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+.laye ul li{
+  flex: auto;
+  width: 25%;
+  padding: 5%;
+}
+.laye ul li img, .kolom, .kolom-o{width: 100%;}
+.numbertext {font-size: 3vw;}
+.text {
+  font-size: 4.5vw;
+  top: 1vw;
+}
+.text1{
+  font-size: 4vw;
+  bottom: 3vw;
+}
+.header{display: none;}
+.prev, .next {font-size: 3vw;}
+.judul-gejala{font-size: 6vw;}
